@@ -1,0 +1,35 @@
+
+
+// variable
+@import './_color';
+@import './_reset';
+
+// component
+@import './components/_header';
+@import './components/_bar';
+@import './components/_scrollbar';
+@import './components/_button';
+@import './components/_datepicker';
+@import './components/_text-summary';
+@import './components/_list-text-summary';
+@import './components/_box-cate-summary';
+@import './components/_dialog';
+@import './components/_confirm-logout';
+@import './components/_loading';
+
+// layout of page
+@import './components/_summary-page';
+@import './pages/_login';
+
+.app {
+  height: 100%;
+
+  &__content {
+    height: calc(100% - 126px);
+  }
+}
+
+.app-container {
+  padding-left: 2.604vw;
+  padding-right: 2.604vw;
+}
